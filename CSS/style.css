@@ -1,11 +1,11 @@
 html{
-    background-color: #ddd;
+    background-color: gray;
     font-family:  Helvetica, sans-serif;
 }
 
 .container{
     max-width: 1300px;
-    background-color: white;
+    background-color: #ddd;
     position: relative;
     margin: 50px auto;
     padding: 20px, 50px;
@@ -35,8 +35,8 @@ html{
 .biography-container{
     padding: 25px 0;
     margin: 25px 30px ;
-    border-top: 3px dashed #ddd;
-    border-bottom: 3px dashed #ddd;
+    border-top: 3px dashed gray;
+    border-bottom: 3px dashed gray;
 }
 
 .bold{
@@ -45,7 +45,7 @@ html{
 
 /* Quotes */
 .quotes-container{
-    background-color: #ddd;
+    background-color: gray;
     padding: 30px;
 }
 
@@ -62,8 +62,8 @@ html{
 .curiosities-container{
     padding: 25px 0;
     margin: 25px 30px;
-    border-top: 3px dashed #ddd;
-    border-bottom: 3px dashed #ddd;
+    border-top: 3px dashed gray;
+    border-bottom: 3px dashed gray;
 }
 
 .curiosities-container li{
