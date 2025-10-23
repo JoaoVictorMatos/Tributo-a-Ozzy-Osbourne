@@ -3,12 +3,17 @@ html{
     font-family:  Helvetica, sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .container{
     max-width: 1300px;
+    width: 100%;
     background-color: #ddd;
     position: relative;
     margin: 50px auto;
-    padding: 20px, 50px;
+    padding: 20px 50px;
 }
 
 /* header */
@@ -29,6 +34,11 @@ html{
 .featured-image{
     text-align: center;
     margin-top: 30px;
+}
+
+.featured-image img{
+    max-width: 100%;
+    height: auto;
 }
 
 /* Biografia */
@@ -60,14 +70,18 @@ html{
 
 /* Curiosidades */
 .curiosities-container{
+    height: auto;
     padding: 25px 0;
     margin: 25px 30px;
     border-top: 3px dashed gray;
     border-bottom: 3px dashed gray;
 }
 
+
+
 .curiosities-container li{
-    height: 50px;
+    height: auto;
+    
 }
 
 /* imagem bold */
@@ -76,6 +90,11 @@ html{
     text-align: center;
     display: flex;
     justify-content: space-around ;
+}
+
+.img-bold img{
+    width: 100%;
+    height: auto;
 }
 
 .more-info{
@@ -92,3 +111,9 @@ footer{
 
 
 
+@media(max-width: 1150px){
+    .container{
+        overflow-x: hidden;
+        padding: 0;
+    }
+}
