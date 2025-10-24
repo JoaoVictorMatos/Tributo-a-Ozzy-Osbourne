@@ -1,6 +1,7 @@
 html{
     background-color: gray;
     font-family:  Helvetica, sans-serif;
+    text-align: justify;
 }
 
 body{
@@ -16,6 +17,10 @@ body{
     padding: 20px 50px;
 }
 
+.justify-text{
+    text-align: justify;
+}
+
 /* header */
 
 .header{
@@ -27,12 +32,12 @@ body{
 }
 
 .main-paragraph{
-    font-style: italic;
+    font-style: italic ;
 }
 
 /* primeira imágem */
 .featured-image{
-    text-align: center;
+    text-align: justify;
     margin-top: 30px;
 }
 
@@ -66,6 +71,11 @@ body{
 
 .quotes-container p{
     font-style: italic;
+}
+
+.quotes-text{
+    text-align: justify;
+    padding-left: 50px;
 }
 
 /* Curiosidades */
